@@ -9,11 +9,7 @@ Files
 - `images/` — image assets referenced by the page (if present).
 
 Quick preview
-1. Open `index.html` in your browser directly, or run a local server from this folder:
-
-```bash
-python3 -m http.server 8000
-# then open http://localhost:8000 in your browser
+Open `index.html` in your browser directly
 ```
 
 Notes
