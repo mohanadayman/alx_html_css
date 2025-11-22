@@ -43,7 +43,7 @@ header .nav-links a:hover { color: #ffd6ff; }
 /* Hero */
 .hero { background: linear-gradient(180deg, rgba(2,8,20,0.5), rgba(2,8,20,0.5)), url('images/Object.png') center/cover no-repeat; color: #fff; }
 .hero { padding: 120px 0 60px; min-height: 72vh; display:flex; align-items:center; }
-.hero-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+.hero-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; justify-items: center; }
 .hero-left { display:flex; flex-direction:column; gap:18px; }
 .hero-left h1 { font-size: 64px; line-height: 1; margin: 0; color: #fff; text-shadow: 0 8px 32px rgba(0,0,0,0.6); }
 .hero-left .badges { display:flex; gap:10px; }
@@ -55,15 +55,15 @@ header .nav-links a:hover { color: #ffd6ff; }
 @media (max-width: 900px) { .btn-primary { width: 100%; max-width: 420px; } }
 
 .hero-right h2 { color: rgba(255,255,255,0.9); margin-bottom: 12px; }
-.experts { display:flex; gap:32px; justify-content:flex-start; align-items:flex-end; margin-top:18px; }
+.experts { display:flex; gap:32px; justify-content:center; align-items:flex-end; margin-top:18px; }
 .expert { text-align:center; width: 140px; }
-.expert img { width:96px; height:96px; object-fit:cover; border-radius:50%; border:6px solid rgba(255,255,255,0.12); box-shadow: 0 12px 30px rgba(2,8,20,0.6); display:block; margin:0 auto; transform: translateY(18px); }
+.experts .expert img { width:96px; height:96px; object-fit:cover; border-radius:50%; border:6px solid rgba(255,255,255,0.12); box-shadow: 0 12px 30px rgba(2,8,20,0.6); display:block; margin:0 auto; transform: translateY(18px); }
 .expert h3 { color: #fff; font-size:13px; margin:8px 0 4px; }
 .expert p { color: rgba(255,255,255,0.8); font-size:11px; margin:0; }
 
 /* Experts grid inside hero (right column) */
 main > section:first-of-type > div:nth-child(2) > div { display: grid; grid-template-columns: repeat(2,1fr); gap: 14px; }
-main > section:first-of-type img { width: 100%; height: auto; border-radius: 8px; display: block; }
+.hero-right img { width: 100%; height: auto; border-radius: 8px; display: block; }
 main > section:first-of-type h3 { margin: 8px 0 4px; font-size: 16px; }
 main > section:first-of-type p { margin: 0; color: #666; font-size: 14px; }
 
