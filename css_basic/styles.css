@@ -1,0 +1,82 @@
+/* Page background */
+body {
+	background: linear-gradient(180deg, #f6f8fb 0%, #ffffff 100%);
+	color: rgba(0, 0, 0, 0.85);
+}
+
+/* Header styling */
+header {
+	background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0.4));
+}
+header a {
+	color: #333333;
+}
+header a:hover {
+	color: #c50000;
+	text-decoration: underline;
+}
+
+/* Main article card */
+article {
+	background: #ffffff;
+	border: 1px solid #e9e9ea;
+	border-radius: 8px;
+	box-shadow: 0 6px 18px rgba(15, 20, 30, 0.04);
+}
+
+/* Aside panel visual */
+aside {
+	background: #fbfbfc;
+	border: 1px solid #efefef;
+	border-radius: 8px;
+}
+
+/* Table styling */
+table {
+	width: 100%;
+	border: 1px solid #e6e6e6;
+	border-radius: 6px;
+	overflow: hidden;
+}
+table thead th {
+	background: #f4f6f8;
+	color: #222;
+	font-weight: 700;
+	padding: 10px 12px;
+	text-align: left;
+}
+table tbody td {
+	padding: 10px 12px;
+	border-top: 1px solid #f0f0f0;
+}
+table tbody tr:nth-child(even) {
+	background: #fbfbfb;
+}
+
+/* Images */
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 6px;
+	border: 1px solid #eee;
+}
+
+/* Footer */
+footer {
+	background: transparent;
+	color: #333;
+}
+
+/* Links */
+a:hover {
+	color: #a30000;
+}
+
+/* Small utility: subtle callout style used in aside */
+.callout {
+	background: #fff7f7;
+	border-left: 4px solid #ffd0d0;
+	padding: 12px;
+	border-radius: 6px;
+}
