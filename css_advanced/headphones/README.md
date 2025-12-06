@@ -9,7 +9,7 @@ Files
 - `images/` — image assets referenced by the page (if present).
 
 Quick preview
-Open `index.html` in your browser directly
+Open `X-index.html` in your browser directly
 ```
 
 Notes
